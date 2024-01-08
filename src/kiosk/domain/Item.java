@@ -1,9 +1,9 @@
 package kiosk.domain;
 
-public class Product extends Menu{
+public class Item extends Menu{
     private double price;
 
-    public Product(String name, String description, double price) {
+    public Item(String name, String description, double price) {
         super(name, description);
         this.price = price;
     }
